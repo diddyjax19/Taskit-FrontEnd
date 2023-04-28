@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React from 'react';
 import { AiOutlineCamera } from "react-icons/ai";
 import { Form } from "react-bootstrap";
 import { Link } from 'react-router-dom';

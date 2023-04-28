@@ -6,15 +6,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./components/custom.css";
 
 const App = () => {
-  return (
-      <>
-          <ToastContainer />
-          <div>
-              <Routing />
-          </div>
-      </>
-  );
+    return (
+        <>
+            <ToastContainer />
+            <div>
+                <Routing />
+            </div>
+        </>
+    );
 };
 
 export default App;
-

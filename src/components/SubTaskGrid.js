@@ -1,8 +1,4 @@
 import React,{useState,useEffect} from 'react';
-import { AiOutlineCamera } from "react-icons/ai";
-
-import { Link } from 'react-router-dom';
-import defaultProject from '../assets/defaultProject.png';
 import { isAuthenticated, isLead, isStaff } from '../auth/helper';
 import { axiosInstance } from '../axiosInstance';
 
