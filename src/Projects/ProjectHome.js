@@ -19,7 +19,7 @@ const ProjectHome = () => {
 
   const data = Object.values(projects);
   const search_parameters = Object.keys(Object.assign({}, ...data));
-  const filter_items = [...new Set(data.map((item) => item.name))];
+  const filter_items = [...new Set(data.map((item) => item.description))];
 
     //search function
     function search(projects) {
