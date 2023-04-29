@@ -19,7 +19,7 @@ const ProjectHome = () => {
 
   const data = Object.values(projects);
   const search_parameters = Object.keys(Object.assign({}, ...data));
-  const filter_items = [...new Set(data.map((item) => item.description))];
+  const filter_items = [...new Set(data.map((item) => item.name))];
 
     //search function
     function search(projects) {
@@ -79,7 +79,7 @@ const ProjectHome = () => {
                       className="custom-select"
                       aria-label="Filter Tasks"
                   >
-                      <option value="">Projects</option>
+                      <option value="">Tasklist</option>
                       {filter_items.map((item) => (
                           <option value={item}> {item}</option>
                       ))}
