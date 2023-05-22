@@ -5,7 +5,21 @@ import { axiosInstance } from '../axiosInstance';
 import { getPaginatedSubTasks } from './helper.js';
 
 
-const TaskGrid = ({name,description,start_date,end_date,handleInputChange,editTask,deleteTask,edit,createNewTask,setAssignedTo,user_assigned,state,ChangeUserAssigned,match}) => {
+const TaskGrid = ({name,
+    description,
+    start_date,
+    end_date,
+    handleInputChange,
+    editTask,
+    deleteTask,
+    edit,
+    createNewTask,
+    setAssignedTo,
+    user_assigned,
+    state,
+    ChangeUserAssigned,
+    match
+}) => {
     const [users, setUsers] = useState([])
     const [email, setEmail] = useState('');
     const [children,setChildren] = useState([])

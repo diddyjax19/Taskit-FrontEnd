@@ -14,8 +14,8 @@ const Signin = () => {
                     authenticate(resp.data.token, resp.data.is_staff, resp.data.is_lead,resp.data.email);
                     setUserData({email: '',password: '', error: false, success: false});
                     history.push('/');
-                    return resp
-                }
+                 }
+                return resp;
             })
             .catch(err => {
                 if (err.response.status === 400) {

@@ -1,10 +1,25 @@
 import React,{useState,useEffect} from 'react';
-import { isAuthenticated, isLead, isStaff } from '../auth/helper';
+
+import { isAuthenticated, isLead } from '../auth/helper';
 import { axiosInstance } from '../axiosInstance';
 
 
 
-const SubTaskGrid = ({name,description,start_date,end_date,handleInputChange,editTask,deleteTask,edit,createNewTask,setAssignedTo,user_assigned,state,ChangeUserAssigned}) => {
+const SubTaskGrid = ({
+    name,
+    description,
+    start_date,
+    end_date,
+    handleInputChange,
+    editTask,
+    deleteTask,
+    edit,
+    createNewTask,
+    setAssignedTo,
+    user_assigned,
+    state,
+    ChangeUserAssigned
+}) => {
     const [users, setUsers] = useState([])
     const [email, setEmail] = useState('');
     

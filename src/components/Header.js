@@ -2,7 +2,6 @@ import React,{useState} from 'react';
 import { Navbar, Collapse, NavbarToggler } from 'reactstrap';
 import {Link, useHistory} from 'react-router-dom';
 import { isAuthenticated, signout,getEmail } from '../auth/helper';
-import { MDBBtn } from 'mdb-react-ui-kit';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);

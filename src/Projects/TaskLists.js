@@ -2,7 +2,6 @@ import React,{useState, useEffect} from 'react';
 import { useHistory } from 'react-router-dom';
 import Header from '../components/Header';
 import { loadAllTasks,loadAllFilteredTasks } from './helper';
-import {toast} from 'react-toastify';
 import Loader from '../components/Loader';
 
 const TaskLists = ({match}) => {

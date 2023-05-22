@@ -8,7 +8,21 @@ import { MDBBtn } from 'mdb-react-ui-kit';
 import { ReactComponent as AddIcon } from '../assets/add.svg'
 
 
-const ProjectGrid = ({avatar,name,description,start_date,end_date,handleInputChange,handleImageChange,editProject,deleteProject,edit,preview,createNewProject,project_id}) => {
+const ProjectGrid = ({
+    avatar,
+    name,
+    description,
+    start_date,
+    end_date,
+    handleInputChange,
+    handleImageChange,
+    editProject,
+    deleteProject,
+    edit,
+    preview,
+    createNewProject,
+    project_id
+}) => {
 
     return (
         <div className="container py-5">
