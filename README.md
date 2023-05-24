@@ -1,23 +1,24 @@
-# Balcongardens - A plant exchange community!
+# TaskME - An Project Manager App!
 
-## [](https://github.com/vivignutz/balcongardens-fe#)[![](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/responsive.png)](https://github.com//blob/main/docs/assets/features/hero.png)
+## [](https://github.com/diddyjax19/Project5-taskmeBackEnd#)[![](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/responsive.png)](https://github.com//blob/main/docs/assets/features/hero.png)
 
-BALCONGARDENS is a social network plattform designed from a plant lover for plant lovers in Berlin.
-The app encourages all users to contact the plants owners and exchange them. As a visitor you can also search for the plants by the plants type in case you are looking for an epecific plant one.
-The users can register for the website and have access to more features such as liking your favourite plants picture that you are most interested in as well as follow certain plant's owner in order to be aware of what they will post in the future.
+Taskme is one of the best productivity platforms on the market. Available via mobile app, desktop app, and web browser, TaskMe provides yet another way to improve work ethic and productivity throughout the day. With TaskMe, team members can check their to-do lists, communicate with one another in real time, collaborate on schedules,and check up on the latest project progress.
+The users can register for the website and have access to more features such as Viewing the Projects and the tasks that are assignedd to all users in the group.
 
 This part of the project is the frontend part based on the React framework, it consist of the user interface that connects and interact with the backend API through http requests.
 
-[View the live project here.](https://balcongardens-fe.herokuapp.com/)
 
-### [](https://github.com/vivignutz/balcongardens-drf-api#links-to-the-backend-api-project)Links to the Backend API Project
 
-- [Backend - Repository](https://github.com/vivignutz/balcongardens-drf-api)
-- [Backend - Deployment](https://balcongardens.herokuapp.com/)
+[View the live project here.](https://taskit-frontend.netlify.app/)
+
+### [](https://github.com/diddyjax19/Project5-taskmeBackEnd#links-to-the-backend-api-project)Links to the Backend API Project
+
+- [Backend - Repository](https://github.com/diddyjax19/Project5-taskmeBackEnd)
+- [Backend - Deployment](http://tobi.pythonanywhere.com/)
 
 ## [](https://github.com/vivignutz/balcongardens-fe#toc)Table of Contents
 
-- [User Experience (UX)](https://github.com/vivignutz/balcongardens-fe#user-experience-ux)
+- [User Experience (UX)](https://github.com/diddyjax19/Project5-taskmeBackEnd#user-experience-ux)
   - [User Stories](https://github.com/vivignutz/balcongardens-fe#user-stories)
   - [Agile Methodology](https://github.com/vivignutz/balcongardens-fe#agile-methodology)
   - [Design](https://github.com/vivignutz/balcongardens-fe#design)
