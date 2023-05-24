@@ -43,17 +43,18 @@ This part of the project is the frontend part based on the React framework, it c
 
 ## [](https://github.com/diddyjax19/Project5-taskmeBackEnd#user-experience-ux)User Experience (UX)
 
-The project was created in order to offer a plant exchange bank for users from Berlin and the region. So could people who loves plants exchange their own double plants with others and built a nice community of plant lovers.
+The project was created in order to offer a  Taskmanger app where users on a given network can add projects,add users to the network,create a task in the project,assign a start date and due date,set priority  and state of the project.
+It also allows all user see the entire projects in the workspace and the tasks.
 Some criterias in achieving this goal were identified as below:
 
-- The main experience is to build a community of plant lovers around Berlin.
-- Registered users should be able to post their plants, offering the double that they have at home, and request what they want to.
-- Create functionality for users search for plants and/or other users by type and / or difficulty-level to taking care of plants.
-- Registered users should be able to like and unlike the plants offered by others, to contact them for a possible pick up, and comment to posts.
-- Registered users should be able to follow offerers to stay in touch with this person who is offering some plants to exchange.
-- Offerers can update their information in a profile page to better presenting themselves to the others who wants to get the plants.
+- The main experience is to build a Task manager app .
+- Registered users should be to see the projects and the task assigned to them and thier team.
+- Create functionality for users search for task and projects available.
+- Registered users should be view each project,view the description of the project and see the Start date and the due date.
+- Registered users should be able view each task in any project,view the description of the task as they are assigned,view the tasks state and thier Start date and the due date.
 
-### [](https://github.com/vivignutz/balcongardens-fe#user-stories)User stories
+
+### [](https://github.com/diddyjax19/Project5-taskmeBackEnd#user-stories)User stories
 
 [ ![Preview Kanban](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/kanban.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/kanban.png)
 
