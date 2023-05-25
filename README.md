@@ -73,31 +73,31 @@ Some criterias in achieving this goal were identified as below:
 
   The main color used is black that represents a calm and trustworthy color type, in order to build trust to the user.
 
-- #### [](https://github.com/vivignutz/balcongardens-fe#typography)Typography
+- #### [](https://github.com/diddyjax19/Taskit-FrontEnd#typography)Typography
 
   Google Fonts was used for the font in the project. The name of the font is Poppins with a medium font weight for a stylistic impression.
 
-- ### [](https://github.com/vivignutz/balcongardens-fe#wireframes)Wireframes
+- ### [](https://github.com/diddyjax19/Taskit-FrontEnd#wireframes)Wireframes
 
 - ##### Signup Page:
 
-  [ ![Wireframe Main Page](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/main_page.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/main_page.png)
+  [ ![Wireframe Main Page](screenshot/Sign.up.Blasq.jpg)](screenshot/Sign.up.Blasq.jpg)
 
   - ##### SignIn Page:
 
-  [ ![Wireframe Main Page](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/main_page.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/main_page.png)
+  [ ![Wireframe Main Page](screenshot/Signin.blasq.jpg)](screenshot/Signin.blasq.jpg)
 
-    - ##### Creat Project Page:
+    - ##### Create Project Page:
 
-  [ ![Wireframe Main Page](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/main_page.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/main_page.png)
+  [ ![Wireframe Main Page](screenshot/Creat.project.blasq.jpg)](screenshot/Creat.project.blasq.jpg)
 
 - ##### Create Task Page:
 
-  [ ![Wireframe Main Page](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/main_page.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/main_page.png)
+  [ ![Wireframe Main Page](screenshot/Create.task.blasq.jpg)](screenshot/Create.task.blasq.jpg)
 
 - ##### View Task Page:
 
-  [ ![Wireframe Post Detail](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/post_detail.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/post_detail.png)
+  [ ![Wireframe Post Detail](screenshot/View.task.blask.jpg)](screenshot/View.task.blask.jpg)
 
 
 ## [](https://github.com/vivignutz/balcongardens-fe#features)Features
