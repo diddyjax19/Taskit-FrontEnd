@@ -1,6 +1,6 @@
 # TaskME - An Project Manager App!
 
-## [](https://github.com/diddyjax19/Project5-taskmeBackEnd#)[![](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/responsive.png)](https://github.com//blob/main/docs/assets/features/hero.png)
+## [](https://github.com/diddyjax19/Taskit-FrontEnd#)[![](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/responsive.png)](https://github.com//blob/main/docs/assets/features/hero.png)
 
 Taskme is one of the best productivity platforms on the market. Available via mobile app, desktop app, and web browser, TaskMe provides yet another way to improve work ethic and productivity throughout the day. With TaskMe, team members can check their to-do lists, communicate with one another in real time, collaborate on schedules,and check up on the latest project progress.
 The users can register for the website and have access to more features such as Viewing the Projects and the tasks that are assignedd to all users in the group.
@@ -11,37 +11,37 @@ This part of the project is the frontend part based on the React framework, it c
 
 [View the live project here.](https://taskit-frontend.netlify.app/)
 
-### [](https://github.com/diddyjax19/Project5-taskmeBackEnd#links-to-the-backend-api-project)Links to the Backend API Project
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#links-to-the-backend-api-project)Links to the Backend API Project
 
 - [Backend - Repository](https://github.com/diddyjax19/Project5-taskmeBackEnd)
 - [Backend - Deployment](http://tobi.pythonanywhere.com/)
 
-## [](https://github.com/vivignutz/balcongardens-fe#toc)Table of Contents
+## [](https://github.com/diddyjax19/Taskit-FrontEnd#toc)Table of Contents
 
-- [User Experience (UX)](https://github.com/diddyjax19/Project5-taskmeBackEnd#user-experience-ux)
-  - [User Stories](https://github.com/diddyjax19/Project5-taskmeBackEnd#user-stories)
-  - [Agile Methodology](https://github.com/diddyjax19/Project5-taskmeBackEnd#agile-methodology)
-  - [Design](https://github.com/diddyjax19/Project5-taskmeBackEnd#design)
-  - [Wireframes](https://github.com/diddyjax19/Project5-taskmeBackEnd#wireframes)
-- [Features](https://github.com/diddyjax19/Project5-taskmeBackEnd#features)
-  - [Future Features](https://github.com/diddyjax19/Project5-taskmeBackEnd#future-features)
-- [Technologies Used](https://github.com/diddyjax19/Project5-taskmeBackEnd#technologies-used)
-  - [Languages Used](https://github.com/diddyjax19/Project5-taskmeBackEnd#languages-used)
-  - [Frameworks Used](https://github.com/diddyjax19/Project5-taskmeBackEnd#frameworks-used)
-- [Testing](https://github.com/diddyjax19/Project5-taskmeBackEnd#testing)
-  - [Bugs](https://github.com/diddyjax19/Project5-taskmeBackEnd#bugs)
-    - [Fixed Bugs](https://github.com/diddyjax19/Project5-taskmeBackEnd#fixed-bugs)
-    - [Remaining Bugs](https://github.com/diddyjax19/Project5-taskmeBackEnd#remaining-bugs)
-- [Deployment](https://github.com/diddyjax19/Project5-taskmeBackEnd#deployment)
-  - [Forking the GitHub Repository](https://github.com/diddyjax19/Project5-taskmeBackEnd#forking-the-github-repository)
-  - [Making a Local Clone](https://github.com/diddyjax19/Project5-taskmeBackEnd#making-a-local-clone)
-  - [Deploying with Heroku](https://github.com/diddyjax19/Project5-taskmeBackEnd#deploying-with-heroku)
-- [Credits](https://github.com/diddyjax19/Project5-taskmeBackEnd#credits)
-  - [Code](https://github.com/diddyjax19/Project5-taskmeBackEnd#code)
-  - [Media](https://github.com/diddyjax19/Project5-taskmeBackEnd#media)
-  - [Acknowledgments](https://github.com/diddyjax19/Project5-taskmeBackEnd#acknowledgments)
+- [User Experience (UX)](https://github.com/diddyjax19/Taskit-FrontEnd#user-experience-ux)
+  - [User Stories](https://github.com/diddyjax19/Taskit-FrontEnd#user-stories)
+  - [Agile Methodology](https://github.com/diddyjax19/Taskit-FrontEnd#agile-methodology)
+  - [Design](https://github.com/diddyjax19/Taskit-FrontEnd#design)
+  - [Wireframes](https://github.com/diddyjax19/Taskit-FrontEnd#wireframes)
+- [Features](https://github.com/diddyjax19/Taskit-FrontEnd#features)
+  - [Future Features](https://github.com/diddyjax19/Taskit-FrontEnd#future-features)
+- [Technologies Used](https://github.com/diddyjax19/Taskit-FrontEnd#technologies-used)
+  - [Languages Used](https://github.com/diddyjax19/Taskit-FrontEnd#languages-used)
+  - [Frameworks Used](https://github.com/diddyjax19/Taskit-FrontEnd#frameworks-used)
+- [Testing](https://github.com/diddyjax19/Taskit-FrontEnd#testing)
+  - [Bugs](https://github.com/diddyjax19/Taskit-FrontEnd#bugs)
+    - [Fixed Bugs](https://github.com/diddyjax19/Taskit-FrontEnd#fixed-bugs)
+    - [Remaining Bugs](https://github.com/diddyjax19/Taskit-FrontEnd#remaining-bugs)
+- [Deployment](https://github.com/diddyjax19/Taskit-FrontEnd#deployment)
+  - [Forking the GitHub Repository](https://github.com/diddyjax19/Taskit-FrontEnd#forking-the-github-repository)
+  - [Making a Local Clone](https://github.com/diddyjax19/Taskit-FrontEnd#making-a-local-clone)
+  - [Deploying with Heroku](https://github.com/diddyjax19/Taskit-FrontEnd#deploying-with-heroku)
+- [Credits]https://github.com/diddyjax19/Taskit-FrontEnd#credits)
+  - [Code](https://github.com/diddyjax19/Taskit-FrontEnd#code)
+  - [Media](https://github.com/diddyjax19/Taskit-FrontEnd#media)
+  - [Acknowledgments](https://github.com/diddyjax19/Taskit-FrontEnd#acknowledgments)
 
-## [](https://github.com/diddyjax19/Project5-taskmeBackEnd#user-experience-ux)User Experience (UX)
+## [](https://github.com/diddyjax19/Taskit-FrontEnd#user-experience-ux)User Experience (UX)
 
 The project was created in order to offer a  Taskmanger app where users on a given network can add projects,add users to the network,create a task in the project,assign a start date and due date,set priority  and state of the project.
 It also allows all user see the entire projects in the workspace and the tasks.
@@ -54,13 +54,13 @@ Some criterias in achieving this goal were identified as below:
 - Registered users should be able view each task in any project,view the description of the task as they are assigned,view the tasks state and thier Start date and the due date.
 
 
-### [](https://github.com/diddyjax19/Project5-taskmeBackEnd#user-stories)User stories
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#user-stories)User stories
 
 [ ![Preview Kanban](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/kanban.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/kanban.png)
 
 - User stories can be viewed in the GitHub repository and each user story has been grouped into Epics which can be displayed on the project's [Kanban board](https://github.com/users/vivignutz/projects/15).
 
-### [](https://github.com/vivignutz/balcongardens-fe#agile-methodology)Agile methodology
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#agile-methodology)Agile methodology
 
 - The Agile Methodology was employed throughout this project, where GitHub projects were used to create User Stories, including a list of priorities grouped into Tags. Thus, the process can be carried out with a view to the priorities of the (supposed) client.
 - A lst of all issues and its labels can be found [here](https://github.com/vivignutz/balcongardens-fe/issues).
