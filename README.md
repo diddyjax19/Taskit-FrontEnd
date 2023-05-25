@@ -160,29 +160,18 @@ Some criterias in achieving this goal were identified as below:
 
 [![EditPost](screenshot/view.task2.png)](screenshot/view.task2.png)
 
-## [](https://github.com/vivignutz/balcongardens-fe#profile-page)Profile page
+## [](https://github.com/vivignutz/balcongardens-fe#profile-page) Search Bar
 
-- The profile page gives the user the possibility to get more followers, and be between the most followed users of the plattform.
-- \*\*\*This page is still being developed, and in a near future new features like "Bio" and "City" will be provided to all users. These features already can be seen at the API.
+- In this Section we can see thew search bar created to allow the user or admin search through the projects.
 
-[![ProfilePage](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/profile.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/profile.png)
+[![SearchBar](screenshot/serach.menu.fortasks.png)](screenshot/serach.menu.fortasks.png)
 
-[
-![Profile small screens](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/profile_small.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/profile_small.png)
+## [](https://github.com/vivignutz/balcongardens-fe#edit-profile)Quick Task List
 
-## [](https://github.com/vivignutz/balcongardens-fe#edit-profile)Edit Profile
+- This section shows a quick view of the tasks already created.
 
-- Edit profile makes it possible to update the existing information about a user.
+[![QuickTask](screenshot/quick.menu.fortasks.png)](screenshot/quick.menu.fortasks.png)
 
-[![Edit Profile](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/edit_prof.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/edit_prof.png)
-
-## [](https://github.com/vivignutz/balcongardens-fe#feed-page)Feed page
-
-- On the Feed page all plants offered will be listed in an infinite loading process, according to the followed profiles. So the users can have the experience to scroll the screem for more and more plants.
-
-## [](https://github.com/vivignutz/balcongardens-fe#saved-page)Liked page
-
-- Registered users have the possibility to see their liked plants when click on "Liked" at the menu bar. All plantas that a user liked will appear on a list form.
 
 ### [](https://github.com/vivignutz/balcongardens-fe#future-features)Future Features
 
@@ -260,13 +249,9 @@ Checked the CSS syntax at the W3C CSS Validator Service and the results came wit
 
 The Lighthouse Scores of Google Dev Tools was used for perfoemance tests. The performance metrics however were impacted by the large image sizes, ahtough all of them were resized before uploaded. For future updates I will investigate possibilities to have cloudinary to resize the images on upload automatically to speed up the site.
 
-- Main Page Desktop
-
-[![Lighthouse Desktop](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/lighthouse2.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/lighthouse1.png)
-
 - Main Page Mobile
 
-[![Lighthouse Mobile](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/lighthouse2.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/lighthouse2.png)
+[![Lighthouse Mobile](screenshot/lighthouse.png)](screenshot/lighthouse.png)
 
 ### [](hhttps://github.com/vivignutz/balcongardens-fe#responsiveness)Responsiveness
 
