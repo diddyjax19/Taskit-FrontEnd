@@ -83,15 +83,15 @@ Some criterias in achieving this goal were identified as below:
 
   [ ![Wireframe Main Page](screenshot/Sign.up.Blasq.jpg)](screenshot/Sign.up.Blasq.jpg)
 
-  - ##### SignIn Page:
+- ##### SignIn Page:
 
   [ ![Wireframe Main Page](screenshot/Signin.blasq.jpg)](screenshot/Signin.blasq.jpg)
 
-  - ##### Home Page:
+- ##### Home Page:
 
   [ ![Wireframe Main Page](screenshot/home.page.blasq.jpg)](screenshot/home.page.blasq.jpg)
 
-    - ##### Create Project Page:
+- ##### Create Project Page:
 
   [ ![Wireframe Main Page](screenshot/Creat.project.blasq.jpg)](screenshot/Creat.project.blasq.jpg)
 
@@ -104,25 +104,26 @@ Some criterias in achieving this goal were identified as below:
   [ ![Wireframe Post Detail](screenshot/View.task.blask.jpg)](screenshot/View.task.blask.jpg)
 
 
-## [](https://github.com/vivignutz/balcongardens-fe#features)Features
+## [](https://github.com/diddyjax19/Taskit-FrontEnd#features)Features
 
-### [](https://github.com/vivignutz/balcongardens-fe#navbar--search)NavBar & Search
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#navbar--search)NavBar & Search
 
 - Contains the necessary links for navigation throughout the site.
-- Updates links are based on user state.
-- The searchbar makes it possible search among the various listings.
+- The searchbar makes it possible search among the various Project.
 - When user is using a small screen, the NavBar toggle turns into a burger icon.
 
-[![Navbar](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/menu_bar1.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/menu_bar1.png)
+[![Navbar](screenshot/navbar.png)](screenshot/navbar.png)
 
-[![Navbar](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/menu_bar2.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/menu_bar2.png)
+[![Navbar](screenshot/navbar2.png)](screenshot/navbar2.png)
 
-[![Navbar](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/menu_bar_col.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/menu_bar_col.png)
+[![Navbar](screenshot/nav4.png)](screenshot/nav4.png)
 
-### [](https://github.com/vivignutz/balcongardens-fe#cars-list-page)Post List page
+### [](https://github.com/vivignutz/balcongardens-fe#cars-list-page)Project List page
 
-- Shows all the posted plants offered by users.
-- Provides the vital information about each plant.
+- Shows all the created Projects by admin.
+- Shows a brief Project Name .
+- Shows a brief Project description.
+- Shows a button to view the project.
 
 [![PostList](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/posts_page.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/posts_page.png)
 
