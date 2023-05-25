@@ -125,7 +125,7 @@ Some criterias in achieving this goal were identified as below:
 - Shows a brief Project description.
 - Shows a button to view the project.
 
-[![PostList](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/posts_page.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/posts_page.png)
+[![PostList](screenshot/1.png)](screenshot/1.png)
 
 ### [](https://github.com/diddyjax19/Taskit-FrontEnd#car-detail-page)Create Project page
 
@@ -209,45 +209,37 @@ Some future features were idealized to be implemented:
   - [ESLint](https://eslint.org/) - Code Linter.
   - [Prettier](https://prettier.io/) - Code Formatting.
 
-## [](https://github.com/vivignutz/balcongardens-fe#testing)Testing
+## [](https://github.com/diddyjax19/Taskit-FrontEnd#testing)Testing
 
-### [](https://github.com/vivignutz/balcongardens-fe#navigation)Navigation-test
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#navigation)Navigation-test
 
 1. Access the navigation bar on every page and easily navigate to the different sections of the website. - PASS
-2. Continue scrolling without pagination to find more plants. - PASS
-3. Search for keywords or user's name in the search bar to find the plant or a user. - PASS
+2. by Clicking the email you can return to the home page. - PASS
+3. Search for keywords in the search bar to find the Project and Task. - PASS
 
-### [](https://github.com/vivignutz/balcongardens-fe#account)Account-test
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#Project)Project
 
-1. See the most followed users. - PASS
-2. Click on profiles to find more information about them. - PASS
-   (\*\*\* in development)
-3. Edit my profile to update or change my information. - PASS
+1. Create Projects - PASS
+2. Edit the description of the project,added the start date and end date. - PASS
+3. Create Task. PASS
+4. Create a Task,description,the state of the project,the project description and the start date and end date.. - PASS
 
-### [](https://github.com/vivignutz/balcongardens-fe#posts)Posts
-
-1. Delete posts a logged in user - PASS
-2. Edit posts to update information. - PASS
-3. Create posts. PASS
-4. Find a list of posts at the home page. - PASS
-5. Click on a post and view all details. - PASS
-
-### [](https://github.com/vivignutz/balcongardens-fe#authentication)Authentication
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#authentication)Authentication
 
 1. Register account. - PASS
 2. Login and logout. - PASS
 
-## [](https://github.com/vivignutz/balcongardens-fe#code-validation)Code Validation
+## [](https://github.com/diddyjax19/Taskit-FrontEnd#code-validation)Code Validation
 
 ### [](https://github.com/vivignutz/balcongardens-fe#jsx)JSX
 
 The JSX code was validated during the development process and corrected as the project proceeded.
 
-### [](https://github.com/vivignutz/balcongardens-fe#css)CSS
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#css)CSS
 
 Checked the CSS syntax at the W3C CSS Validator Service and the results came with no errors.
 
-### [](https://github.com/vivignutz/balcongardens-fe#lighthouse-scores)Lighthouse Scores
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#lighthouse-scores)Lighthouse Scores
 
 The Lighthouse Scores of Google Dev Tools was used for perfoemance tests. The performance metrics however were impacted by the large image sizes, ahtough all of them were resized before uploaded. For future updates I will investigate possibilities to have cloudinary to resize the images on upload automatically to speed up the site.
 
@@ -255,65 +247,58 @@ The Lighthouse Scores of Google Dev Tools was used for perfoemance tests. The pe
 
 [![Lighthouse Mobile](screenshot/lighthouse.png)](screenshot/lighthouse.png)
 
-### [](hhttps://github.com/vivignutz/balcongardens-fe#responsiveness)Responsiveness
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#responsiveness)Responsiveness
 
 The website was thoroughly tested using the [responsivetesttool.](https://responsivetesttool.com/)
 
-### [](https://github.com/vivignutz/balcongardens-fe#bugs)Bugs
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#bugs)Bugs
 
-#### [](https://github.com/vivignutz/balcongardens-fe#fixed-bugs)Fixed Bugs
+#### [](https://github.com/diddyjax19/Taskit-FrontEnd#fixed-bugs)Fixed Bugs
 
 - Django Rest Auth Token, in which all sessions were closed suddenly.
 - Small bugs like typo and misspelling through the code were solved.
 
-#### [](https://github.com/vivignutz/balcongardens-fe#remaining-bugs)Remaining Bugs
+#### [](https://github.com/diddyjax19/Taskit-FrontEnd#remaining-bugs)Remaining Bugs
 
 - MoreDropdown for post edit is showing in the "wrong" place, and should be in the right side of the container.
 - City field is not being showing even when user choses a city.
 
-## [](https://github.com/vivignutz/balcongardens-fe#deployment)Deployment
+## [](https://github.com/diddyjax19/Taskit-FrontEnd#deployment)Deployment
 
-### [](https://github.com/vivignutz/balcongardens-fe#forking-the-github-repository)Forking the GitHub Repository
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#forking-the-github-repository)Forking the GitHub Repository
 
-1.  Go to [the project repository](https://github.com/ErikHgm/FireHouse-Restaurant-Project)
+1.  Go to [the project repository](https://github.com/diddyjax19/Taskit-FrontEnd)
 2.  In the right most top menu, click the "Fork" button.
 3.  There will now be a copy of the repository in your own GitHub account.
 
-### [](https://github.com/vivignutz/balcongardens-fe#running-the-project-locally)Running the project locally
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#running-the-project-locally)Running the project locally
 
-1.  Go to [the project repository](https://github.com/ErikHgm/FireHouse-Restaurant-Project)
+1.  Go to [the project repository](https://github.com/diddyjax19/Taskit-FrontEnd)
 2.  Click on the "Code" button.
 3.  Choose one of the three options (HTTPS, SSH or GitHub CLI) and then click copy.
 4.  Open the terminal in you IDE program.
 5.  Type `git clone` and paste the URL that was copied in step 3.
 6.  Press Enter and the local clone will be created.
 
-### [](https://github.com/vivignutz/balcongardens-fe#alternatively-by-using-gitpod)Alternatively by using Gitpod:
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#alternatively-by-using-gitpod)Alternatively by using Gitpod:
 
-1.  Go to [the project repository](https://github.com/ErikHgm/FireHouse-Restaurant-Project)
+1.  Go to [the project repository](https://github.com/diddyjax19/Taskit-FrontEnd)
 2.  Click the green button that says "Gitpod" and the project will now open up in Gitpod.
 
-### [](https://github.com/vivignutz/balcongardens-fe#deploying-with-heroku)Deploying with Heroku
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#deploying-with-heroku)Deploying with Netlify
 
-I followed the below steps using the Code Institute tutorial:
+1.  Go to [https://www.netlify.com/](https://dashboard.heroku.com/apps) and log in; if you do not already have an account then you will need to create one.
 
-The following command in the Gitpod CLI will create the relevant files needed for Heroku to install your project dependencies `pip3 freeze --local > requirements.txt`. Please note this file should be added to a .gitignore file to prevent the file from being committed.
+#### [](https://github.com/vivignutz/balcongardens-fe#heroku-deployment)Netlify Deployment
 
-1.  Go to [Heroku.com](https://dashboard.heroku.com/apps) and log in; if you do not already have an account then you will need to create one.
-2.  Click the `New` dropdown and select `Create New App`.
-3.  Enter a name for your new project, all Heroku apps need to have a unique name, you will be prompted if you need to change it.
-4.  Select the region you are working in.
+1.  On Netlify’s dashboard, select the Site tab. Next, click on Add new site and then select Deploy manually from the drop-down menu options.
+[![Netlify](screenshot/Netlify1.PNG)](screenshot/Netlify1.PNG)
 
-#### [](https://github.com/vivignutz/balcongardens-fe#heroku-deployment)Heroku Deployment
+2.  In the drag-and-drop feature page, select the folder containing the React build files and drop it into this user interface. The project will instantly deploy on Netlify.
+[![Netlify](screenshot/netlify2.PNG)](screenshot/netlify2.PNG)
 
-In the Deploy tab:
+*  Alternatively, you can click on Browse to upload to select your build folder from the file system. On Netlify’s dashboard, select the Site tab. Next, click on Add new site and then select Deploy manually from the drop-down menu options.
 
-1.  Connect your Heroku account to your Github Repository following these steps:
-    - Click on the `Deploy` tab and choose `Github-Connect to Github`.
-    - Enter the GitHub repository name and click on `Search`.
-    - Choose the correct repository for your application and click on `Connect`.
-2.  You can then choose to deploy the project manually or automatically, automatic deployment will generate a new application every time you push a change to Github, whereas manual deployment requires you to push the `Deploy Branch` button whenever you want a change made.
-3.  Once you have chosen your deployment method and have clicked `Deploy Branch` your application will be built and you should now see the `View` button, click this to open your application.
 
 ## [](https://github.com/vivignutz/balcongardens-fe#credits)Credits
 
