@@ -58,22 +58,20 @@ Some criterias in achieving this goal were identified as below:
 
 [ ![Preview Kanban](screenshot/kaban-pic.png)](screenshot/kaban-pic.png)
 
-- User stories can be viewed in the GitHub repository and each user story has been grouped into Epics which can be displayed on the project's [Kanban board](https://github.com/users/vivignutz/projects/15).
+- User stories can be viewed in the GitHub repository and each user story has been grouped into Epics which can be displayed on the project's [Kanban board](https://github.com/users/diddyjax19/projects/6/views/1).
 
 ### [](https://github.com/diddyjax19/Taskit-FrontEnd#agile-methodology)Agile methodology
 
 - The Agile Methodology was employed throughout this project, where GitHub projects were used to create User Stories, including a list of priorities grouped into Tags. Thus, the process can be carried out with a view to the priorities of the (supposed) client.
-- A lst of all issues and its labels can be found [here](https://github.com/vivignutz/balcongardens-fe/issues).
+- A lst of all issues and its labels can be found [here](https://github.com/diddyjax19/Taskit-FrontEnd/issues).
 
-### [](https://github.com/vivignutz/balcongardens-fe#design)Design
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#design)Design
 
-- #### [](https://github.com/vivignutz/balcongardens-fe#color-scheme)Color Scheme
+- #### [](https://github.com/diddyjax19/Taskit-FrontEnd#color-scheme)Color Scheme
 
   I decided to incorporate a minimalistic design approach for the site. This is in order to make the content and detailed information throughout the site to stand out better to the users.
 
-  The main color used is rgb(49, 49, 156) that represents a calm and trustworthy color type, in order to build trust to the user.
-
-  [ ![Pallete Color](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/color_pallet.jpg)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/color_pallet.jpg)
+  The main color used is black that represents a calm and trustworthy color type, in order to build trust to the user.
 
 - #### [](https://github.com/vivignutz/balcongardens-fe#typography)Typography
 
@@ -81,20 +79,26 @@ Some criterias in achieving this goal were identified as below:
 
 - ### [](https://github.com/vivignutz/balcongardens-fe#wireframes)Wireframes
 
-- ##### Main Page:
+- ##### Signup Page:
 
   [ ![Wireframe Main Page](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/main_page.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/main_page.png)
 
-- ##### Post Detail:
+  - ##### SignIn Page:
+
+  [ ![Wireframe Main Page](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/main_page.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/main_page.png)
+
+    - ##### Creat Project Page:
+
+  [ ![Wireframe Main Page](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/main_page.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/main_page.png)
+
+- ##### Create Task Page:
+
+  [ ![Wireframe Main Page](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/main_page.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/main_page.png)
+
+- ##### View Task Page:
 
   [ ![Wireframe Post Detail](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/post_detail.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/post_detail.png)
 
-- ##### Create Post:
-
-  [ ![Wireframe Create Post](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/create_post.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/create_post.png)
-
-- ##### Profile Detail:
-  [ ![Wireframe Profile Detail](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/profile_detail.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/profile_detail.png)
 
 ## [](https://github.com/vivignutz/balcongardens-fe#features)Features
 
