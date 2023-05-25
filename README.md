@@ -1,6 +1,6 @@
 # TaskME - An Project Manager App!
 
-## [](https://github.com/diddyjax19/Taskit-FrontEnd#)[![](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/responsive.png)](https://github.com//blob/main/docs/assets/features/hero.png)
+## [](https://github.com/diddyjax19/Taskit-FrontEnd#)[![](screenshot/responsive.png)](screenshot/responsive.png)
 
 Taskme is one of the best productivity platforms on the market. Available via mobile app, desktop app, and web browser, TaskMe provides yet another way to improve work ethic and productivity throughout the day. With TaskMe, team members can check their to-do lists, communicate with one another in real time, collaborate on schedules,and check up on the latest project progress.
 The users can register for the website and have access to more features such as Viewing the Projects and the tasks that are assignedd to all users in the group.
