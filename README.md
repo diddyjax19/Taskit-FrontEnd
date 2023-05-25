@@ -87,6 +87,10 @@ Some criterias in achieving this goal were identified as below:
 
   [ ![Wireframe Main Page](screenshot/Signin.blasq.jpg)](screenshot/Signin.blasq.jpg)
 
+  - ##### Home Page:
+
+  [ ![Wireframe Main Page](screenshot/home.page.blasq.jpg)](screenshot/home.page.blasq.jpg)
+
     - ##### Create Project Page:
 
   [ ![Wireframe Main Page](screenshot/Creat.project.blasq.jpg)](screenshot/Creat.project.blasq.jpg)
