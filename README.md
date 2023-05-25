@@ -287,7 +287,7 @@ The website was thoroughly tested using the [responsivetesttool.](https://respon
 
 ### [](https://github.com/diddyjax19/Taskit-FrontEnd#deploying-with-heroku)Deploying with Netlify
 
-1.  Go to [https://www.netlify.com/](https://dashboard.heroku.com/apps) and log in; if you do not already have an account then you will need to create one.
+1.  Go to [https://www.netlify.com/](https://www.netlify.com/) and log in; if you do not already have an account then you will need to create one.
 
 #### [](https://github.com/vivignutz/balcongardens-fe#heroku-deployment)Netlify Deployment
 
@@ -300,24 +300,23 @@ The website was thoroughly tested using the [responsivetesttool.](https://respon
 *  Alternatively, you can click on Browse to upload to select your build folder from the file system. On Netlify’s dashboard, select the Site tab. Next, click on Add new site and then select Deploy manually from the drop-down menu options.
 
 
-## [](https://github.com/vivignutz/balcongardens-fe#credits)Credits
+## [](https://github.com/diddyjax19/Taskit-FrontEnd#credits)Credits
 
-### [](https://github.com/vivignutz/balcongardens-fe#online-documentation)Online Documentation
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#online-documentation)Online Documentation
 
 - [React documentation](https://reactjs.org/docs/getting-started.html)
 - [React Bootstrap documentation and examples](https://react-bootstrap.github.io/)
 
-### [](https://github.com/vivignutz/balcongardens-fe#code)Code
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#code)Code
 
 - The Moments tutorial by Code institute was used to create the foundations on which I built upon to create the project.
 
-### [](https://github.com/vivignutz/balcongardens-fe#media)Media
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#media)Media
 
 - The images used throughout the project are from [https://unsplash.com/de/](https://unsplash.com/de)
 
-### [](https://github.com/vivignutz/balcongardens-fe#acknowledgements)Acknowledgements
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#acknowledgements)Acknowledgements
 
 - The tutor support team at Code Institute for their support.
-- My Code Institute Mentor, the best one that CI could have. All feedbacks, help and suggestions were very helpful to me - thank you, sis!
-- My colleague Tony for all help he gave me with much patience - thank you, bro!
+- My Code Institute Mentor, the best one that CI could have. All feedbacks, help and suggestions were very helpful to me - thank you, Martina Terlevic!
 - The Code Institute Slack community.
