@@ -160,13 +160,13 @@ Some criterias in achieving this goal were identified as below:
 
 [![EditPost](screenshot/view.task2.png)](screenshot/view.task2.png)
 
-## [](https://github.com/vivignutz/balcongardens-fe#profile-page) Search Bar
+## [](https://github.com/diddyjax19/Taskit-FrontEnd#Search-Bar) Search Bar
 
 - In this Section we can see thew search bar created to allow the user or admin search through the projects.
 
 [![SearchBar](screenshot/serach.menu.fortasks.png)](screenshot/serach.menu.fortasks.png)
 
-## [](https://github.com/vivignutz/balcongardens-fe#edit-profile)Quick Task List
+## [](https://github.com/diddyjax19/Taskit-FrontEnd#Task-list)Quick Task List
 
 - This section shows a quick view of the tasks already created.
 
@@ -183,22 +183,25 @@ Some future features were idealized to be implemented:
 - Implement a location algorithm to allow users to search for plants or offeres through a certain distance, connected with the "City" field.
 - To offer the functionality for an image gallery to allow the offeres to upload more pictures of the plants to give.
 
-## [](https://github.com/vivignutz/balcongardens-fe#technologies-used)Technologies Used
+## [](https://github.com/diddyjax19/Taskit-FrontEnd#technologies-used)Technologies Used
 
-### [](https://github.com/vivignutz/balcongardens-fe#languages)Languages
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#languages)Languages
 
 - JavaScript
 - HTML5
 - CSS3
 
-### [](https://github.com/vivignutz/balcongardens-fe#frameworks-libraries--programs-used)Frameworks, Libraries & Programs Used
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#frameworks-libraries--programs-used)Frameworks, Libraries & Programs Used
 
 - [React](https://reactjs.org/) - (Front-end JavaScript library for building user interfaces based on UI components)
 - [React Bootstrap](https://react-bootstrap.github.io/) - Component-based library that provides native Bootstrap components as pure React components[1](https://www.pluralsight.com/guides/how-to-set-up-a-react-bootstrap-app). Used to create a responsive application/component UI.
 - [Axios](https://axios-http.com/) - Promise based HTTP client for the browser and node.js. Used to make HTTP requests from throughout the application.
 - [jwt-decode](https://github.com/auth0/jwt-decode) - Used to decode and extract information from a JWT token.
 - [react-router-dom](https://www.npmjs.com/package/react-router-dom) - Routing library for the React Javascript library. Used to display different components based on the URL entered in the browser.
-- [drawSQL](https://drawsql.app/) - Create Database Schema/ERD
+- [web-vitals](https://www.npmjs.com/package/web-vitals) - is a tiny (~1.5K, brotli'd), modular library for measuring all the Web Vitals metrics on real users, in a way that accurately matches how they're measured by Chrome and reported to other Google tools
+- [reactstrap](https://reactstrap.github.io/) -  It is a tool that makes it easier to use Bootstrap components in React.
+- [react-toastify](https://www.npmjs.com/package/react-toastify) - allows you to add notifications to your app with ease.
+- [react-scripts](https://www.npmjs.com/package/react-scripts) -  a set of scripts from the create-react-app starter pack which helps you kick off projects without configuring
 - [Git](https://git-scm.com/) - Git was used for version control, using the terminal to commit to Git and Push to GitHub.
 - [GitHub:](https://github.com/) - GitHub is used to store the projects code after being pushed from Git.
 - The following modules were installed or enabled in Gitpod to assist with formatting and code linting:
@@ -233,7 +236,6 @@ Some future features were idealized to be implemented:
 
 1. Register account. - PASS
 2. Login and logout. - PASS
-3. Set the acess tokens to refresh and avoid logout of users. - PASS
 
 ## [](https://github.com/vivignutz/balcongardens-fe#code-validation)Code Validation
 
