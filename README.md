@@ -127,14 +127,26 @@ Some criterias in achieving this goal were identified as below:
 
 [![PostList](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/posts_page.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/posts_page.png)
 
-### [](https://github.com/vivignutz/balcongardens-fe#car-detail-page)Post Detail page
+### [](https://github.com/vivignutz/balcongardens-fe#car-detail-page)Create Project page
+
+- Contains how the admin can create project
+- By clickinng the + button on the home page 
+
+
+[![Post](screenshot/createproject.page1.png)](screenshot/createproject.page1.png)
+
+- Includes pictures,start date and end date.
+
+[![Post](screenshot/create.project.png)](screenshot/create.project.png)
+
+### [](https://github.com/vivignutz/balcongardens-fe#car-detail-page)Create Task page
 
 - Contains the entire offer of a single plant with detailed information about it: difficulty leve, type of plant, etc.
 - Includes links for the post owner to update or delete the post.
 
 [![Post](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/post.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/post.png)
 
-## [](https://github.com/vivignutz/balcongardens-fe#car-edit-page)Post Edit page
+## [](https://github.com/vivignutz/balcongardens-fe#car-edit-page)View Task page
 
 - Provides capability to update an existing plant post.
 
