@@ -9,7 +9,7 @@ This part of the project is the frontend part based on the React framework, it c
 
 
 
-[View the live project here.](https://taskit-frontend.netlify.app/)
+[View the live project here.](https://taskme-ca5001.netlify.app)
 
 ### [](https://github.com/diddyjax19/Taskit-FrontEnd#links-to-the-backend-api-project)Links to the Backend API Project
 
@@ -173,7 +173,7 @@ Some criterias in achieving this goal were identified as below:
 [![QuickTask](screenshot/quick.menu.fortasks.png)](screenshot/quick.menu.fortasks.png)
 
 
-### [](https://github.com/vivignutz/balcongardens-fe#future-features)Future Features
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#future-features)Future Features
 
 Some future features were idealized to be implemented:
 
