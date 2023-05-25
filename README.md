@@ -118,7 +118,7 @@ Some criterias in achieving this goal were identified as below:
 
 [![Navbar](screenshot/nav4.png)](screenshot/nav4.png)
 
-### [](https://github.com/vivignutz/balcongardens-fe#cars-list-page)Project List page
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#Project-List-page)Project List page
 
 - Shows all the created Projects by admin.
 - Shows the  Project Name created.
