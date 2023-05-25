@@ -121,7 +121,7 @@ Some criterias in achieving this goal were identified as below:
 ### [](https://github.com/vivignutz/balcongardens-fe#cars-list-page)Project List page
 
 - Shows all the created Projects by admin.
-- Shows a brief Project Name .
+- Shows the  Project Name created.
 - Shows a brief Project description.
 - Shows a button to view the project.
 
