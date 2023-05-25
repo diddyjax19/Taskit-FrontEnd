@@ -127,10 +127,10 @@ Some criterias in achieving this goal were identified as below:
 
 [![PostList](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/posts_page.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/posts_page.png)
 
-### [](https://github.com/vivignutz/balcongardens-fe#car-detail-page)Create Project page
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#car-detail-page)Create Project page
 
 - Contains how the admin can create project
-- By clickinng the + button on the home page 
+- By clicking the + button on the home page 
 
 
 [![Post](screenshot/createproject.page1.png)](screenshot/createproject.page1.png)
@@ -139,18 +139,26 @@ Some criterias in achieving this goal were identified as below:
 
 [![Post](screenshot/create.project.png)](screenshot/create.project.png)
 
-### [](https://github.com/vivignutz/balcongardens-fe#car-detail-page)Create Task page
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#car-detail-page)Create Task page
 
-- Contains the entire offer of a single plant with detailed information about it: difficulty leve, type of plant, etc.
-- Includes links for the post owner to update or delete the post.
+- Contains how the admin can create Task
+- Click add task button on the project creation menu.
 
-[![Post](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/post.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/post.png)
+[![Post](screenshot/create.task1.png)](screenshot/create.task1.png)
 
-## [](https://github.com/vivignutz/balcongardens-fe#car-edit-page)View Task page
+- In this Section you can create the task,add the description,set the state of the task,assign the task to the designated user,set the start and end date and save the task.
 
-- Provides capability to update an existing plant post.
+[![Post](screenshot/create.task2.png)](screenshot/create.task2.png)
 
-[![EditPost](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/static/edit_post.png)](https://github.com/vivignutz/balcongardens-fe/blob/main/src/assets/edit_post.png)
+## [](https://github.com/diddyjax19/Taskit-FrontEnd#car-edit-page)View Task page
+
+- In this Section each user can view the tasks of then whole team and see who each task are assigned to.
+
+[![EditPost](screenshot/view.task.png)](screenshot/view.task.png)
+
+- In this Section the user can click on any task and view all the descriptions.
+
+[![EditPost](screenshot/view.task2.png)](screenshot/view.task2.png)
 
 ## [](https://github.com/vivignutz/balcongardens-fe#profile-page)Profile page
 
