@@ -6,7 +6,14 @@ import defaultProject from '../assets/defaultProject.png';
 import { isStaff,isLead } from '../auth/helper';
 import { MDBBtn } from 'mdb-react-ui-kit';
 import { ReactComponent as AddIcon } from '../assets/add.svg'
+import styled from "styled-components";
 
+const StyledLink = styled(Link)`
+color: Blue;
+text-decoration: none;
+margin: 0.5px;
+position: relative;
+`;
 
 const ProjectGrid = ({
     avatar,
@@ -28,18 +35,21 @@ const ProjectGrid = ({
         <div className="container py-5">
             <form onSubmit={e => e.preventDefault()}>
                 <div className="">
-                    <ul className="nav justify-content-center">
+                    <ul className="nav justify-content-center mb-2">
                         {
-                            !createNewProject && isStaff() && isLead && (<li className="nav-item">
-                                <Link to={`/project/${project_id}/task`} className="nav-link">Create Task</Link>
-                            </li>)
+                            !createNewProject && isStaff() && isLead && (
+                                
+                                <button type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark">
+                                <StyledLink to={`/project/${project_id}/task`} className="fs-5 fw-bold">Create Task</StyledLink>
+                                </button>
+                            )
                         }
                         {
                             !createNewProject && (
                                
-                                   <MDBBtn rounded className='text-dark m-2' color='light' >
-                                    <Link to={`/project/${project_id}/tasklist/`} >Show Tasks</Link>
-                                  </MDBBtn>
+                                   <button type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark">
+                                    <StyledLink to={`/project/${project_id}/tasklist/`} className="fs-5 fw-bold"> Show Tasks</StyledLink>
+                                  </button>
                             )
                         }
                         
@@ -60,14 +70,14 @@ const ProjectGrid = ({
                     {
                         isStaff() && editProject && (<button disabled={!edit} 
                         onClick={editProject}
-                        className="btn btn-success">Save</button>)
+                        className="btn btn-success m-1">Save</button>)
                     }
 
                     {
                         isStaff() && deleteProject && (
                             <button 
                             onClick={deleteProject}
-                            className="btn btn-danger">Delete</button>
+                            className="btn btn-danger m-1">Delete</button>
                         )
                     }
                     

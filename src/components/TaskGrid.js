@@ -26,8 +26,6 @@ const TaskGrid = ({name,
     const [next, setNext] = useState();
     const [prev, setPrev] = useState();
     
-    const history = useHistory();
-
     
     useEffect(()=>{
         if (user_assigned) {
@@ -93,18 +91,19 @@ const TaskGrid = ({name,
                     </ul>
                 </div>
                 
-                <div className="ml-auto" style={{textAlign: "right"}}>
+                <div className="ml-auto " style={{textAlign: "right"}}>
                     {
-                        editTask && (<button disabled={!edit} 
+                        
+                        isStaff()&& editTask && (<button disabled={!edit} 
                         onClick={editTask}
-                        className="btn btn-success">Save</button>)
+                        className="btn btn-success m-1">Save</button>)
                     }
 
                     {
                         isStaff() && deleteTask && (
                             <button 
                             onClick={deleteTask}
-                            className="btn btn-danger">Delete</button>
+                            className="btn btn-danger m-1">Delete</button>
                         )
                     }
                     
@@ -112,9 +111,9 @@ const TaskGrid = ({name,
                 </div>
                 <div className="form-row my-2">
                     <div className="col">
-                        <label>Task name</label>
+                        <label className="fw-bold">Task name</label>
                         <input type="text" placeholder="Enter project name" 
-                            value={name}
+                            value={name}disabled={isStaff() ? false: true}
                             onChange={handleInputChange('name')}
                             className="form-control" />
                     </div>
@@ -122,9 +121,10 @@ const TaskGrid = ({name,
                 <div className="row my-2">
                     <div className="col-md-6 col-12">
                         <div className="form-group">
-                            <label htmlFor="exampleFormControlSelect1">State</label>
+                            <label htmlFor="exampleFormControlSelect1" className="fw-bold">State</label>
                             <select 
                                 value={state}
+                                disabled={isStaff() ? false: true}
                                 onChange={handleInputChange('state')} class="form-control" id="exampleFormControlSelect1">
                                 {/* <option selected disabled>Select state</option> */}
                                 <option value="NEW">NEW</option>
@@ -135,10 +135,11 @@ const TaskGrid = ({name,
                     </div>
                     <div className="col-md-6 col-12">
                         <div className="form-group">
-                            <label htmlFor="">Assigned To</label>
+                            <label htmlFor="" className="fw-bold">Assigned To</label>
                             <input 
                             placeholder="Assign to"
                             value={email}
+                            disabled={isStaff() ? false: true}
                             onChange={onEmailChange}
                             type="text" className="form-control" name="" id="" />
                             {/* suggestion dropdown */}
@@ -162,32 +163,35 @@ const TaskGrid = ({name,
                 </div>
                 <div className="row my-2">
                     <div className="form-group col-md-6 col-sm-12">
-                        <label>Description</label>
+                        <label className="fw-bold">Description</label>
                         <textarea 
                         style={{height: "300px"}}
                         value={description}
+                        disabled={isStaff() ? false: true}
                         onChange={handleInputChange('description')}
                         className="form-control" placeholder="Enter project description"></textarea>
                     </div>
                     <div className="form-group col-md-6 col-sm-12">
                         <div className="form-row my-2">
-                            <label>Start Date</label>
+                            <label className="fw-bold">Start Date</label>
                             <input type="date" 
                             value={start_date}
+                            disabled={isStaff() ? false: true}
                             onChange={handleInputChange('start_date')}
                             placeholder="Select start date" className="form-control" />
                         </div>
                         <div className="form-row my-2">
-                            <label>End Date</label>
+                            <label className="fw-bold">End Date</label>
                             <input 
                             value={end_date}
+                            disabled={isStaff() ? false: true}
                             onChange={handleInputChange('end_date')}
                             type="date" placeholder="Select End date" className="form-control" />
                         </div>
                         {
                             !createNewTask && (
                                 <div className="form-row my-2">
-                                    <label>Sub-Tasks</label>
+                                    <label className="fw-bold">Sub-Tasks</label>
                                     {
                                         children.map(child => (
                                             <a style={{display: 'block'}} key={child.id} href={`/project/${match.params?.id}/task/${child.id}`}>
@@ -212,7 +216,7 @@ const TaskGrid = ({name,
                             <button 
                             disabled={!name || !description || !start_date || !end_date}
                             onClick={createNewTask}
-                            className="btn btn-primary d-block form-control">Create</button>
+                            className="btn btn-primary d-block form-control fw-bold">Create</button>
                         </div>
                     )
                 }

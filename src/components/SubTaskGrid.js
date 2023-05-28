@@ -1,12 +1,10 @@
 import React,{useState,useEffect} from 'react';
-
 import { isAuthenticated, isLead } from '../auth/helper';
 import { axiosInstance } from '../axiosInstance';
 
 
 
-const SubTaskGrid = ({
-    name,
+const SubTaskGrid = ({name,
     description,
     start_date,
     end_date,
@@ -61,7 +59,7 @@ const SubTaskGrid = ({
                     {
                         !createNewTask && (<button disabled={!edit} 
                         onClick={editTask}
-                        className="btn btn-success">Save</button>)
+                        className="btn btn-success m-1">Save</button>)
                     }
                     
                     
@@ -70,7 +68,7 @@ const SubTaskGrid = ({
                         isLead() && deleteTask && (
                             <button 
                             onClick={deleteTask}
-                            className="btn btn-danger">Delete</button>
+                            className="btn btn-danger m-1">Delete</button>
                         )
                     }
                     
@@ -128,7 +126,7 @@ const SubTaskGrid = ({
                 </div>
                 <div className="row my-2">
                     <div className="form-group col-md-6 col-sm-12">
-                        <label>Description</label>
+                        <label className="fw-bold">Description</label>
                         <textarea 
                         style={{height: "300px"}}
                         value={description}
@@ -137,14 +135,14 @@ const SubTaskGrid = ({
                     </div>
                     <div className="form-group col-md-6 col-sm-12">
                         <div className="form-row my-2">
-                            <label>Start Date</label>
+                            <label className="fw-bold">Start Date</label>
                             <input type="date" 
                             value={start_date}
                             onChange={handleInputChange('start_date')}
                             placeholder="Select start date" className="form-control" />
                         </div>
                         <div className="form-row my-2">
-                            <label>End Date</label>
+                            <label className="fw-bold">End Date</label>
                             <input 
                             value={end_date}
                             onChange={handleInputChange('end_date')}
@@ -158,7 +156,7 @@ const SubTaskGrid = ({
                             <button 
                             disabled={!name || !description || !start_date || !end_date}
                             onClick={createNewTask}
-                            className="btn btn-primary d-block form-control">Create Sub Task</button>
+                            className="btn btn-primary d-block form-control fw-bold">Create Sub Task</button>
                         </div>
                     )
                 }
