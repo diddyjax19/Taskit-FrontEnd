@@ -55,7 +55,7 @@ Some criterias in achieving this goal were identified as below:
 
 ### [](https://github.com/diddyjax19/Taskit-FrontEnd#user-stories)User stories
 
-[ ![Preview Kanban](screenshot/kaban-pic.png)](screenshot/kaban-pic.png)
+[ ![Preview Kanban](screenshot/kaban.png)](screenshot/kaban.png)
 
 - User stories can be viewed in the GitHub repository and each user story has been grouped into Epics which can be displayed on the project's [Kanban board](https://github.com/users/diddyjax19/projects/6/views/1).
 
