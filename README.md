@@ -240,13 +240,13 @@ Checked the CSS syntax at the W3C CSS Validator Service and the results came wit
 
 The Lighthouse Scores of Google Dev Tools was used for perfoemance tests. The performance metrics however were impacted by the large image sizes, ahtough all of them were resized before uploaded. For future updates I will investigate possibilities to have cloudinary to resize the images on upload automatically to speed up the site.
 
-- Main Page Mobile.
-
-[![Lighthouse Mobile](screenshot/lighthouse.png)](screenshot/lighthouse.png)
-
 - Main Page Desktop.
 
-[![Lighthouse Desktop](screenshot/lighthouse.png)](screenshot/lighthouse.png)
+[![Lighthouse Desktop](screenshot/desktop.lighthouse.png)](screenshot/desktop.lighthouse.png)
+
+- Main Page Mobile.
+
+[![Lighthouse Mobile](screenshot/mobile.lighthouse.png)](screenshot/mobile.lighthouse.png)
 
 ### [](https://github.com/diddyjax19/Taskit-FrontEnd#responsiveness)Responsiveness
 
