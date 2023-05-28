@@ -7,7 +7,7 @@ import ProjectCard from '../components/ProjectCard';
 import { LoadAllProjects } from './helper';
 import {toast} from 'react-toastify';
 import '../App.css'
-import { ReactComponent as AddIcon } from '../assets/add.svg'
+
 
 
 const ProjectHome = () => {
@@ -58,44 +58,47 @@ const ProjectHome = () => {
         <>
             <Header />
             <div className="container">
-            <div className="wrapper">
-          <div className="search-wrapper">
-              <label htmlFor="search-form">
-                  <input
-                      type="search"
-                      name="search-form"
-                      id="search-form"
-                      className="search-input"
-                      placeholder="Search "
-                      onChange={(e) => setQuery(e.target.value)}
-                  />
+                <div className="wrapper">
+                    <div className="search-wrapper">
+                         <label htmlFor="search-form">
+                            <input
+                                type="search"
+                                name="search-form"
+                                id="search-form"
+                                className="search-input"
+                                placeholder="Search "
+                                onChange={(e) => setQuery(e.target.value)}
+                            />
 
-              </label>
+                        </label>
 
-          {/* filter */}
-          <div className="select">
-                  <select
-                      onChange={(e) => setFilter(e.target.value)}
-                      className="custom-select"
-                      aria-label="Filter Tasks"
-                  >
-                      <option value="">Tasklist</option>
-                      {filter_items.map((item) => (
-                          <option value={item}> {item}</option>
-                      ))}
-                  </select>
-                  <span className="focus"></span>
-              </div>
-          </div>
-        </div>
+              
+
+                    {/* filter */}
+                    <div className="select">
+                        <select
+                            onChange={(e) => setFilter(e.target.value)}
+                            className="custom-select"
+                            aria-label="Filter Tasks"
+                        >
+                            <option value="" id="list">Tasklist</option>
+                            {filter_items.map((item) => (
+                                <option value={item}> {item}</option>
+                            ))}
+                        </select>
+                        <span className="focus"></span>
+                    </div>
+                </div>
+            </div>
                 {/* show create button for admin */}
                 {
                     isStaff() && (
                         <div className="my-3" style={{textAlign: "right"}}>
                             <button 
                             onClick={() => history.push("/create/project")}
-                            className="btn btn-success">
-                                <AddIcon />
+                            type="button" class="btn btn-success btn-lg">
+                                {/* <AddIcon /> */}
+                                Create Task
                             </button>
                         </div>
                     )
