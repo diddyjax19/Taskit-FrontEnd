@@ -9,7 +9,7 @@ This part of the project is the frontend part based on the React framework, it c
 
 
 
-[View the live project here.](https://taskme-ca5001.netlify.app)
+[View the live project here.](https://taskme-9502ad.netlify.app)
 
 ### [](https://github.com/diddyjax19/Taskit-FrontEnd#links-to-the-backend-api-project)Links to the Backend API Project
 
@@ -178,10 +178,8 @@ Some criterias in achieving this goal were identified as below:
 Some future features were idealized to be implemented:
 
 - Offer more search options with filters based on different criteria.
-- Set the "Bio" and "city" at Profile page, in order to give the users the possibility to know the user their are following.
-- Implement a star rating system for the plants offered to rate the plant offerers in order to increase trust and credibility of the community.
-- Implement a location algorithm to allow users to search for plants or offeres through a certain distance, connected with the "City" field.
-- To offer the functionality for an image gallery to allow the offeres to upload more pictures of the plants to give.
+- Ability for users on the same platform to interact to each other,like a chat system between users on the same platform.
+- 
 
 ## [](https://github.com/diddyjax19/Taskit-FrontEnd#technologies-used)Technologies Used
 
