@@ -30,13 +30,12 @@ This part of the project is the frontend part based on the React framework, it c
   - [Frameworks Used](https://github.com/diddyjax19/Taskit-FrontEnd#frameworks-used)
 - [Testing](https://github.com/diddyjax19/Taskit-FrontEnd#testing)
   - [Bugs](https://github.com/diddyjax19/Taskit-FrontEnd#bugs)
-    - [Fixed Bugs](https://github.com/diddyjax19/Taskit-FrontEnd#fixed-bugs)
-    - [Remaining Bugs](https://github.com/diddyjax19/Taskit-FrontEnd#remaining-bugs)
+    - [Bugs](https://github.com/diddyjax19/Taskit-FrontEnd#Bugs)
 - [Deployment](https://github.com/diddyjax19/Taskit-FrontEnd#deployment)
   - [Forking the GitHub Repository](https://github.com/diddyjax19/Taskit-FrontEnd#forking-the-github-repository)
   - [Making a Local Clone](https://github.com/diddyjax19/Taskit-FrontEnd#making-a-local-clone)
-  - [Deploying with Heroku](https://github.com/diddyjax19/Taskit-FrontEnd#deploying-with-heroku)
-- [Credits]https://github.com/diddyjax19/Taskit-FrontEnd#credits)
+  - [Deploying with Netlify](https://github.com/diddyjax19/Taskit-FrontEnd#deploying-with-Netlify)
+- [Credits](https://github.com/diddyjax19/Taskit-FrontEnd#credits)
   - [Code](https://github.com/diddyjax19/Taskit-FrontEnd#code)
   - [Media](https://github.com/diddyjax19/Taskit-FrontEnd#media)
   - [Acknowledgments](https://github.com/diddyjax19/Taskit-FrontEnd#acknowledgments)
@@ -241,9 +240,13 @@ Checked the CSS syntax at the W3C CSS Validator Service and the results came wit
 
 The Lighthouse Scores of Google Dev Tools was used for perfoemance tests. The performance metrics however were impacted by the large image sizes, ahtough all of them were resized before uploaded. For future updates I will investigate possibilities to have cloudinary to resize the images on upload automatically to speed up the site.
 
-- Main Page Mobile
+- Main Page Mobile.
 
 [![Lighthouse Mobile](screenshot/lighthouse.png)](screenshot/lighthouse.png)
+
+- Main Page Desktop.
+
+[![Lighthouse Desktop](screenshot/lighthouse.png)](screenshot/lighthouse.png)
 
 ### [](https://github.com/diddyjax19/Taskit-FrontEnd#responsiveness)Responsiveness
 
@@ -253,13 +256,10 @@ The website was thoroughly tested using the [responsivetesttool.](https://respon
 
 #### [](https://github.com/diddyjax19/Taskit-FrontEnd#fixed-bugs)Fixed Bugs
 
-- Django Rest Auth Token, in which all sessions were closed suddenly.
-- Small bugs like typo and misspelling through the code were solved.
+- Unhandled rejection (TypeError) cannit read properties of undefined (reading 'status')
 
-#### [](https://github.com/diddyjax19/Taskit-FrontEnd#remaining-bugs)Remaining Bugs
-
-- MoreDropdown for post edit is showing in the "wrong" place, and should be in the right side of the container.
-- City field is not being showing even when user choses a city.
+- Solution
+- Used Django rest framework serializer class
 
 ## [](https://github.com/diddyjax19/Taskit-FrontEnd#deployment)Deployment
 
@@ -283,11 +283,11 @@ The website was thoroughly tested using the [responsivetesttool.](https://respon
 1.  Go to [the project repository](https://github.com/diddyjax19/Taskit-FrontEnd)
 2.  Click the green button that says "Gitpod" and the project will now open up in Gitpod.
 
-### [](https://github.com/diddyjax19/Taskit-FrontEnd#deploying-with-heroku)Deploying with Netlify
+### [](https://github.com/diddyjax19/Taskit-FrontEnd#deploying-with-Netlify)Deploying with Netlify
 
 1.  Go to [https://www.netlify.com/](https://www.netlify.com/) and log in; if you do not already have an account then you will need to create one.
 
-#### [](https://github.com/vivignutz/balcongardens-fe#heroku-deployment)Netlify Deployment
+#### [](https://github.com/diddyjax19/Taskit-FrontEnd#Netlify-deployment)Netlify Deployment
 
 1.  On Netlify’s dashboard, select the Site tab. Next, click on Add new site and then select Deploy manually from the drop-down menu options.
 [![Netlify](screenshot/Netlify1.PNG)](screenshot/Netlify1.PNG)
