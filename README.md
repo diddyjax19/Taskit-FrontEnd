@@ -298,6 +298,26 @@ The website was thoroughly tested using the [responsivetesttool.](https://respon
 *  Alternatively, you can click on Browse to upload to select your build folder from the file system. On Netlify’s dashboard, select the Site tab. Next, click on Add new site and then select Deploy manually from the drop-down menu options.
 
 
+# Functional components used 
+1. `const PrivateRoute()`: regulate access to certain routes depending on if user is authenticated or not
+2. `const PageNotFound()`: displays in place of 404 Error (page not found)
+3. `const axiosInstance()`: To get data from API page
+4. `const CreateProject()`: handle creation of new project
+5. `const CreateSubTask()`: functional component to handle the creation of new subtasks' name, description, start_date, end_date, state,setAssignedTo
+6. `const CreateTask()`: functional component to handle the creation of new tasks' name, description, start_date, end_date, state, setAssignedTo and project related to
+7. `const ProjectDetail()`: handle project details such as edit or delete project
+8. `const ProjectHome()`: project's home page that renders project's id, avatar, nameproject, description with search and filter functionlities
+9. `const SubTaskDetail()`:handles details of subtasks including edit, delete and set assigned to functions
+10. `const TaskDetails()`: renders specific task details including editing
+11. `const TaskLists()`: renders the total lists of tasks by id, name, assigned_to, name, state, end_date and a lists of incompleted tasks  
+12. `const BasicForm()`: To render signUp form
+13. `const Header.js()`: For page header and navbar and selectively displays navbar items depending on user authentication state
+14. `const Loader.js()`: Simple spin loader to render in cases where data is not been retrieved from backend
+15. `const ProjectCard()`: Displays a single projects image, name, description and link to view details of project 
+16. `const ProjectGrid()`: Component to create, edit or delete project if user is admin or view available projects for other users
+17. `const SubTaskGrid()`: create, edit or delete tasks depending on user status
+18. `const TaskGrid()`: change task state, edit task, assign to, start_date, end_date if is staff, and create task  
+
 ## [](https://github.com/diddyjax19/Taskit-FrontEnd#credits)Credits
 
 ### [](https://github.com/diddyjax19/Taskit-FrontEnd#online-documentation)Online Documentation
