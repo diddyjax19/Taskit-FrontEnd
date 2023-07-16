@@ -91,7 +91,7 @@ const ProjectDetail = ({match}) => {
                 }
             })
             .catch(err => {
-                console.log("Something went wront");
+                console.log("Something went wrong!");
                 toast("Something went wrong!",{
                     type: "error"
                 })

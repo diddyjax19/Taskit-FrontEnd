@@ -19,7 +19,7 @@ const Header = () => {
     return (
         <Navbar className="navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid">
-                <Link to="/" className="navbar-brand fs-2">TaskMe</Link>
+                <Link href="/" className="navbar-brand fs-2">TaskMe</Link>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar className="collapse navbar-collapse justify-content-end">
 

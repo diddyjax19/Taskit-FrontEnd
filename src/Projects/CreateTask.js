@@ -77,7 +77,6 @@ const CreateTask = ({match}) => {
                 description={taskDetails.description}
                 start_date={taskDetails.start_date}
                 end_date={taskDetails.end_date}
-                createNewTask={createNewTask}
                 state={taskDetails.state}
                 setAssignedTo={setAssignedTo}
 

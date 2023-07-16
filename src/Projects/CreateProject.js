@@ -30,7 +30,7 @@ const CreateProject = () => {
 
     const handleImageChange = e => {
         e.preventDefault();
-        console.log("Imahe hanfler called");
+        console.log("Image handler called");
         const file = e.target.files[0];
         setProjectData({...projectData, avatar: file})
         setImageUpload(true);

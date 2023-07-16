@@ -11,17 +11,11 @@ const Signup = () => {
                 if (resp.status === 201) {
                     setUserData({email: '',password: '', error: false, success: true});
                 }
-                return resp;
             })
             .catch(err => {
-                if (err.resp.status === 400) {
+                if (err.response.status === 400) {
                     setUserData({...userData, error: true,success: false});
                 }
-            })
-            .catch(err => {
-                if (err.response && err.response.status === 400) {
-                    setUserData({...userData, error: true, success: false});
-                }
             })
     }
 
