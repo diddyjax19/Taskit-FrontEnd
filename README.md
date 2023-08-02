@@ -76,6 +76,9 @@ Some criterias in achieving this goal were identified as below:
 
   Google Fonts was used for the font in the project. The name of the font is Poppins with a medium font weight for a stylistic impression.
 
+
+<details>
+
 - ### [](https://github.com/diddyjax19/Taskit-FrontEnd#wireframes)Wireframes
 
 - ##### Signup Page:
@@ -102,6 +105,7 @@ Some criterias in achieving this goal were identified as below:
 
   [ ![Wireframe Post Detail](screenshot/View.task.blask.jpg)](screenshot/View.task.blask.jpg)
 
+</details>
 
 ## [](https://github.com/diddyjax19/Taskit-FrontEnd#features)Features
 
