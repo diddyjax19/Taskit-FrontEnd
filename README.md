@@ -55,6 +55,8 @@ Some criterias in achieving this goal were identified as below:
 
 ### [](https://github.com/diddyjax19/Taskit-FrontEnd#user-stories)User stories
 
+All User Stories have been documented in their own file, the link for which can be found [HERE](userstories.md).
+
 [ ![Preview Kanban](screenshot/kaban.png)](screenshot/kaban.png)
 
 - User stories can be viewed in the GitHub repository and each user story has been grouped into Epics which can be displayed on the project's [Kanban board](https://github.com/users/diddyjax19/projects/6/views/1).
@@ -78,7 +80,7 @@ Some criterias in achieving this goal were identified as below:
 
 
 
-- ## [](https://github.com/diddyjax19/Taskit-FrontEnd#wireframes)Wireframes
+## [](https://github.com/diddyjax19/Taskit-FrontEnd#wireframes)Wireframes
 
 <details>
 
